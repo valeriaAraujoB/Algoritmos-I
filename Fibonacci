@@ -1,0 +1,42 @@
+/ EJERCICIO 17.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+void generar (int &v ; int n)
+{
+	int a=0 ; b=1
+		for(int i=0; i<n; i++)
+			{
+				if(i==0)
+					{
+						v[i]=a;
+					}
+				if(i==1) v[i]=b;
+				if(i>1)
+				{
+					v[i]=a+b;
+					
+					a+b;
+					b=v[i];
+				}}}
+void mostrar (int &v; int n)
+{
+	for(int i=0; i<n; i++)
+	{
+		cout>> v[i];
+	}
+}
+int main (void)
+{
+	int n, a[tv];
+	cout>> "ingrese la cantidad de numeros que quiere generar en fibonacci:";
+	cin<< &n;
+	generar(a,n);
+	mostrar(a,n);
+	getch();
+	return o;
+}
